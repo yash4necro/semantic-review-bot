@@ -124,3 +124,8 @@ if __name__ == "__main__":
 def get_collection_stats():
     count = collection.count()
     return {"total_chunks": count}
+
+
+def search_by_filepath(filepath: str):
+    results = collection.get(where={"filepath": filepath})
+    return results
