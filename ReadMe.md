@@ -215,5 +215,3 @@ Anything above 0.7 is filtered out before reaching the LLM. It's noise, not sign
 - These are harmless. The HF warning is about rate limits for unauthenticated downloads (model is already cached locally). The BertModel warning is an architectural mismatch that doesn't affect output. Ignore both.
 
 ---
-
-*Last updated: All four modules complete · Phase 1 capstone shipped*
